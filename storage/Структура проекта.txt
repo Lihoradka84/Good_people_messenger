@@ -1,0 +1,9 @@
+messenger/
+│
+├── main.py                 # Основной скрипт (GUI + логика)
+├── crypto.py               # Шифрование/дешифрование
+├── database.py             # Работа с SQLite
+├── messaging.py            # Отправка/приём сообщений
+├── keys/                   # Папка с ключами (id_rsa, id_rsa.pub)
+├── data/                   # Локальное хранение фото и сообщений
+└── requirements.txt

@@ -156,3 +156,9 @@ class MessengerApp:
             self.chat_log.insert(tk.END, f"[Incoming] Friend: [Фото: {photo_path}]\n")
             self.chat_log.config(state='disabled')
             self.chat_log.yview(tk.END)
+
+            # В конце main.py
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = MessengerApp(root)
+    root.mainloop()
